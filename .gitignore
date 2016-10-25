@@ -2,9 +2,9 @@ node_modules
 src/node_modules
 npm-debug.log
 coverage
-lib
 build
 typings
+src/node_modules
 src/*.js
 src/*.map
 src/*.d.ts

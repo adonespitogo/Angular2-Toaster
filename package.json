@@ -35,16 +35,24 @@
     "url": "https://github.com/stabzs/Angular2-Toaster/issues"
   },
   "typings": "./angular2-toaster.d.ts",
+  "dependencies": {
+    "@angular/common": "^2.1.1",
+    "@angular/compiler": "^2.1.1",
+    "@angular/core": "^2.1.1",
+    "@angular/platform-browser": "^2.1.1",
+    "@angular/platform-browser-dynamic": "^2.1.1",
+    "rxjs": "5.0.0-beta.12"
+  },
   "peerDependencies": {
-    "@angular/common": "^2.0.0",
-    "@angular/compiler": "^2.0.0",
-    "@angular/core": "^2.0.0",
-    "@angular/platform-browser": "^2.0.0",
-    "@angular/platform-browser-dynamic": "^2.0.0",
+    "@angular/common": "^2.1.1",
+    "@angular/compiler": "^2.1.1",
+    "@angular/core": "^2.1.1",
+    "@angular/platform-browser": "^2.1.1",
+    "@angular/platform-browser-dynamic": "^2.1.1",
     "rxjs": "5.0.0-beta.12"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^0.6.4",
+    "@angular/compiler-cli": "^2.1.1",
     "@angular/platform-server": "^2.0.2",
     "core-js": "^2.4.1",
     "coveralls": "^2.11.14",
